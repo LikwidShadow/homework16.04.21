@@ -1,0 +1,19 @@
+ExpeditionManager REST-Schnittstelle mit JSON. Version 1.0:
+
+GET  /exman                                ->  gibt diese Beschreibung zurueck
+GET  /exman/expeditions                    ->  holt alle Expeditionsnamen
+GET  /exman/expedition/:name               ->  holt eine Expedition mit Name (Bsp: /exman/expedition/Mars)
+POST /exman/expedition                     ->  speichert eine Expedition (der Name ist in der Expedition)
+GET  /exman/algorithms                     ->  holt alle Algorithmennamen
+POST /exman/pack?limit=20&algorithm=Simple ->  packt Expedition mit Limite und Algorithmus. Gibt selektierte Items zurueck.
+
+Beispiel JSON-Format einer Expedition:
+{
+    "name":"Mars",
+    "items":[
+        {"name":"Roboter","weight":184,"profit":12400},
+        {"name":"Messstation","weight":144,"profit":8900}
+     ]
+}
+
+(c) M. Bontognali
