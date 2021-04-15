@@ -1,0 +1,7 @@
+{
+    "name":"Aarau",
+    "items":[
+        {"name":"Fahrrad","weight":184,"profit":12400},
+        {"name":"Skateboard","weight":144,"profit":8900}
+     ]
+}
