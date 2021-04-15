@@ -1,0 +1,30 @@
+{
+    "name": "Mars",
+    "items": [
+        {
+            "name": "Roboter",
+            "weight": 184,
+            "profit": 12400
+        },
+        {
+            "name": "Messstation",
+            "weight": 144,
+            "profit": 8900
+        },
+        {
+            "name": "Kommunikation",
+            "weight": 85,
+            "profit": 14500
+        },
+        {
+            "name": "Fahrzeug",
+            "weight": 207,
+            "profit": 11600
+        },
+        {
+            "name": "Labor",
+            "weight": 278,
+            "profit": 19000
+        }
+    ]
+}
