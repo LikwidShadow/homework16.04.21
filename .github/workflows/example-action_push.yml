@@ -3,7 +3,7 @@ name:  The most simple action ever
 on:
   push:
       PATHS:
-      -  .GITHUB/WORKFLOWS/EXAMPLE-ACTION_PUSH.YML
+      -  .github/workflows/example-action_push.yml
       
       jobs:
       print-stuff:
